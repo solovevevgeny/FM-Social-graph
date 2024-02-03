@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="./themeSwitcher.js"></script>
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="container">
+      <div class="container__header">
+
+        <div class="container__header-text">
+          <h1>Social Media Dashboard</h1>
+          <span>Total Followers: 23,004</span>
+        </div>
+
+      <div class="container__header-switcher" onClick="switchTheme()">
+        <div class="themeSwitcher">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M264 480A232 232 0 0 1 32 248c0-94 54-178.28 137.61-214.67a16 16 0 0 1 21.06 21.06C181.07 76.43 176 104.66 176 136c0 110.28 89.72 200 200 200 31.34 0 59.57-5.07 81.61-14.67a16 16 0 0 1 21.06 21.06C442.28 426 358 480 264 480z"></path></svg>
+          <span class="switcherText">Light theme</span>
+       </div>
+        
+      </div>
+
+    </div>
+
+
+    <div class="container__body">
+
+      <div class="card-main border-fb">
+        <div class="card-main-logo-social">
+          <img src="./images/icon-facebook.svg" >@nathanf
+        </div>
+        <div class="card-main-amount">
+          1987
+        </div>
+        <div class="card-main-falowers-text">
+          Followers
+        </div>
+        <div class="card-main-changes">
+          <span class="up">12 Today</span>
+        </div>
+      </div>
+    
+      <div class="card-main border-tw">
+        <div class="card-main-logo-social">
+          <img src="./images/icon-twitter.svg" alt="">@nathanf
+        </div>
+        <div class="card-main-amount">
+          1044
+        </div>
+        <div class="card-main-falowers-text">
+          Followers
+        </div>
+        <div class="card-main-changes">
+          <span class="up">99 Today</span>
+        </div>
+      </div>
+    
+      <div class="card-main border-in">
+        <div class="card-main-logo-social">
+          <img src="./images/icon-instagram.svg" alt="">@realnathanf
+        </div>
+        <div class="card-main-amount">
+          11k
+        </div>
+        <div class="card-main-falowers-text">
+          Followers
+        </div>
+        <div class="card-main-changes">
+          <span class="up">1099 Today</span>
+          
+        </div>
+      </div>
+    
+      <div class="card-main border-yu">
+        <div class="card-main-logo-social">
+          <img src="./images/icon-youtube.svg" alt=""> Nathan F.
+        </div>
+        <div class="card-main-amount">
+          
+          8239
+        </div>
+        <div class="card-main-falowers-text">
+          Subscribers
+        </div>
+        <div class="card-main-changes">
+          <span class="down">144 Today</span>
+          
+        </div>
+      </div>
+
+
+ 
+    </div>
+    
+    <h3>Overview - Today</h3>
+    
+    <div class="cards_summary">
+
+      <div class="cards_summary-card">
+        <div class="cards_summary-card-views-text">
+          Page Views
+        </div>
+        <div class="cards_summary-card-logo">
+          <img src="./images/icon-facebook.svg" alt="">
+        </div>
+        <div class="cards_summary-card-amount">
+          87
+        </div>
+        <div class="cards_summary-card-change">
+          <span class="up"> 3%</span>
+        </div>
+      </div>
+
+      <div class="cards_summary-card">
+        <div class="cards_summary-card-views-text">
+          Likes
+        </div>
+        <div class="cards_summary-card-logo">
+          <img src="./images/icon-facebook.svg" alt="">
+        </div>
+        <div class="cards_summary-card-amount">
+          52
+        </div>
+        <div class="cards_summary-card-change">
+          <span class="down">2%</span>
+        </div>
+      </div>
+
+      
+      <div class="cards_summary-card">
+        <div class="cards_summary-card-views-text">
+          Likes
+        </div>
+        <div class="cards_summary-card-logo">
+          <img src="./images/icon-instagram.svg" alt="">
+        </div>
+        <div class="cards_summary-card-amount">
+          5462
+        </div>
+        <div class="cards_summary-card-change">
+          <span class="up">2257%</span>
+          
+        </div>
+      </div>
+
+      <div class="cards_summary-card">
+        <div class="cards_summary-card-views-text">
+          Profile views
+        </div>
+        <div class="cards_summary-card-logo">
+          <img src="./images/icon-instagram.svg" alt="">
+        </div>
+        <div class="cards_summary-card-amount">
+          52k
+        </div>
+        <div class="cards_summary-card-change">
+          <span class="up">1375%</span>
+          
+        </div>
+      </div>
+
+      <div class="cards_summary-card">
+        <div class="cards_summary-card-views-text">
+          Retweet
+        </div>
+        <div class="cards_summary-card-logo">
+          <img src="./images/icon-twitter.svg" alt="">
+        </div>
+        <div class="cards_summary-card-amount">
+          117
+        </div>
+        <div class="cards_summary-card-change">
+          <span class="up">303%</span>
+        </div>
+      </div>
+
+      <div class="cards_summary-card">
+        <div class="cards_summary-card-views-text">
+          Likes
+        </div>
+        <div class="cards_summary-card-logo">
+          <img src="./images/icon-twitter.svg" alt="">
+        </div>
+        <div class="cards_summary-card-amount">
+          507
+        </div>
+        <div class="cards_summary-card-change">
+          <span class="up">553%</span>
+        </div>
+      </div>
+
+      <div class="cards_summary-card">
+        <div class="cards_summary-card-views-text">
+          Likes
+        </div>
+        <div class="cards_summary-card-logo">
+          <img src="./images/icon-youtube.svg" alt="">
+        </div>
+        <div class="cards_summary-card-amount">
+          107
+        </div>
+        <div class="cards_summary-card-change">
+          <span class="down">19%</span>
+        </div>
+      </div>
+
+      <div class="cards_summary-card">
+        <div class="cards_summary-card-views-text">
+          Total view
+        </div>
+        <div class="cards_summary-card-logo">
+          <img src="./images/icon-youtube.svg" alt="">
+        </div>
+        <div class="cards_summary-card-amount">
+          1407
+        </div>
+        <div class="cards_summary-card-change">
+          <span class="down">12%</span>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  
+  
+  
+  </main>
+
+ 
+
+  
+</body>
+</html>
