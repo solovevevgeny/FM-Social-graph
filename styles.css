@@ -83,11 +83,11 @@ body[data-theme='light'] {
     justify-content: space-between;
 }
 
-h1, h3{
+h1, h2{
     color: var(--color-white);
 }
 
-h3 {
+h2 {
     padding: 40px 0;
 }
 
